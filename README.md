@@ -15,4 +15,11 @@ We apply two parameterizations to a stop-detection algorithm based on DBScan [1]
 [1] Chen, Wen, M. H. Ji, and J. M. Wang. "T-DBSCAN: A Spatiotemporal Density Clustering for GPS Trajectory Segmentation." International Journal of Online Engineering 10.6 (2014).
 
 ## How to run
-These simulations can be run by executing the included jupyter notebook. 
+These simulations can be run by executing the jupyter notebook trajectory_simulation.ipynb. 
+
+# Visualization of Safegraph's stay at home data for 2019-2020
+
+## Overview
+We visualize a 7-day rolling average of a stay-at-home metric (devices_completely_at_home/total_devices) using Safegraph's [social distancing metrics](https://docs.safegraph.com/docs/social-distancing-metrics) during 2019 and 2020. Access to the data requires authorization from Safegraph through their COVID-19 [data for Academics program](https://www.safegraph.com/blog/safegraph-partners-with-dewey). 
+## How to run
+These plots can be obtained by executing the jupyter notebook called safegraph_stay_at_home.ipynb
